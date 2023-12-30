@@ -1,4 +1,24 @@
 # nezha-serv
+## 准备需要用的变量
+* 到 Cloudflare 官网，选择使用的域名，打开 `网络` 选项将 `gRPC` 开关打开
+
+<img width="1590" alt="image" src="https://user-images.githubusercontent.com/92626977/233138703-faab8596-a64a-40bb-afe6-52711489fbcf.png">
+
+* 获取 github 认证授权: https://github.com/settings/applications/new
+
+面板域名加上 `https://` 开头，回调地址再加上 `/oauth2/callback` 结尾
+
+<img width="916" alt="image" src="https://user-images.githubusercontent.com/92626977/231099071-b6676f2f-6c7b-4e2f-8411-c134143cab24.png">
+<img width="1122" alt="image" src="https://user-images.githubusercontent.com/92626977/231086319-1b625dc6-713b-4a62-80b1-cc5b2b7ef3ca.png">
+
+* 获取 github 的 PAT (Personal Access Token): https://github.com/settings/tokens/new
+
+<img width="1226" alt="image" src="https://user-images.githubusercontent.com/92626977/233346036-60819f98-c89a-4cef-b134-0d47c5cc333d.png">
+<img width="1148" alt="image" src="https://user-images.githubusercontent.com/92626977/233346508-273c422e-05c3-4c91-9fae-438202364787.png">
+
+* 创建 github 用于备份的私库: https://github.com/new
+
+<img width="814" alt="image" src="https://user-images.githubusercontent.com/92626977/233345537-c5b9dc27-35c4-407b-8809-b0ef68d9ad55.png">
 
 用到的变量
   | 变量名        | 是否必须  | 备注 |
