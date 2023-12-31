@@ -46,4 +46,6 @@
   | TOK                 | 是 | 隧道的TOKEN|
   | ARGO_DOMAIN         | 是 | Argo 域名 |
   | BEIFEN_TIME         | 否 | 强制备份间隔，分钟为单位，默认1440表示24小时 |
+  | PORT                | 否 |默认7860 |
+  | PSWD               | 是 |启动密码 |
 
