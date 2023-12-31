@@ -87,7 +87,9 @@
   | ARGO_DOMAIN         | 是 | Argo 域名 |
   | BEIFEN_TIME         | 否 | 强制备份间隔，分钟为单位，默认1440表示24小时 |
   | PORT                | 否 |默认7860 |
-  | PSWD               | 是 |启动密码 |
+  | WEB_PORT            | 否 |默认8080，即隧道设置为http的端口，为面板web管理端口 |
+  | GRPC_PROXY_PORT     | 否 |默认8443，即隧道设置为https的端口，为面板数据通信端口 |
+  | PSWD                | 是 |启动密码 |
 
 
 
