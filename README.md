@@ -18,14 +18,14 @@
 ## 支持一键换哪吒面板配置
 
 在备份仓库创建文件env.json，格式如下:
-
+```
 {
   "TOK": "your_token_value",
   "ARGO_DOMAIN": "your_argo_domain_value",
   "GH_CLIENTID": "your_github_client_id_value",
   "GH_CLIENTSECRET": "your_github_client_secret_value",
 }
-
+```
 ## 准备需要用的变量
 
 * 到 Cloudflare 官网，选择使用的域名，打开 `网络` 选项将 `gRPC` 开关打开
