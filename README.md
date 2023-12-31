@@ -1,4 +1,4 @@
-# nezha-serv
+# 哪吒面板nodejs重写版，教程参考F大原版
 
 加强备份恢复逻辑，保证不丢失数据：
 
@@ -66,3 +66,4 @@
   | PORT                | 否 |默认7860 |
   | PSWD               | 是 |启动密码 |
 
+附：F大佬原版地址：https://github.com/fscarmen2/Argo-Nezha-Service-Container.git
