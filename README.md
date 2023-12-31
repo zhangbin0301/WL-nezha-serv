@@ -14,8 +14,8 @@
 
 6、每24小时自动检测面板程序版本，发现新版本自动更新，无需重新部署
 
-
 ## 准备需要用的变量
+
 * 到 Cloudflare 官网，选择使用的域名，打开 `网络` 选项将 `gRPC` 开关打开
 
 <img width="1590" alt="image" src="https://user-images.githubusercontent.com/92626977/233138703-faab8596-a64a-40bb-afe6-52711489fbcf.png">
@@ -51,7 +51,7 @@
 <img width="1410" alt="image" src="https://github.com/fscarmen2/Argo-Nezha-Service-Container/assets/92626977/228b8e86-32a8-479a-8a86-89ed9b8b5b5e">
 
 
-用到的变量
+##      变量参考
   | 变量名        | 是否必须  | 备注 |
   | ------------ | ------   | ---- |
   | GH_USER             | 是 | github 的用户名，用于面板管理授权 |
