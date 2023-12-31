@@ -26,7 +26,17 @@
 }
 ```
 然后查看日志一键命令，浏览器输入命令即可一键替换新的面板配置
+```
+小技巧：可以把一键命令放入备份仓库的read.me，点击即可备份恢复
 
+哪吒服务器的一键备份 https://xxxx.com/benfen-xxx
+
+哪吒服务器的一键恢复 https://xxxx.com/huifu-xxx
+
+哪吒服务器的一键更换 https://xxxx.com/genghuan-xxx
+
+哪吒服务器的一键部署 https://api.xxxx.com/deploy
+```
 ## 准备需要用的变量
 
 * 到 Cloudflare 官网，选择使用的域名，打开 `网络` 选项将 `gRPC` 开关打开
